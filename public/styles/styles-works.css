@@ -1,0 +1,53 @@
+body {
+    background-color: white;
+    font-family: "Montserrat";
+}
+
+.links {
+    display: flex;
+    margin: 10px 0px 20px 0px;
+    justify-content: center;
+    list-style: none;
+}
+
+.link {
+    padding: 0px 10px 0px 10px;
+}
+
+.title > h1 {
+    color: black;
+    font-size: 50px;
+    font-weight: 100;
+    text-align: center;
+    margin: 0px;
+}
+
+.line {
+    color: gray;
+    width: 200px;
+    position: relative;
+}
+
+.game > h3 {
+    color: black;
+    font-size: 24px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}
+
+.game-explanation {
+    border: 1px dotted gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

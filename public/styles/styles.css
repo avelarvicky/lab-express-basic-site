@@ -1,0 +1,80 @@
+@import url(/public/styles/Montserrat/);
+
+body {
+    margin: 150px 0px 150px 0px;
+    height: 100%;
+    background-color: white;
+    font-family: "Montserrat";
+}
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.background {
+    opacity: 0.3;
+    height: 90px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#title {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: -20px 0px -20px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 20px 20px;
+}
+
+.title > h1 {
+    color: black;
+    font-size: 50px;
+    font-weight: 100;
+    margin: 0px;
+}
+
+.title > h3 {
+    color: gray;
+    font-size: 32px;
+    font-weight: lighter;
+    margin: 0px;
+}
+
+.line {
+    margin: 0px;
+    color: gray;
+}
+
+.title > p {
+    color: black;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 0px;
+}
+
+.self-image {
+    position: relative;
+    width: 200px; 
+    height: 250px; 
+    object-fit: cover;
+    border: 1px solid green;
+    border-radius: 16px;
+}
+
+.links {
+    display: flex;
+    margin: 10px 0px 0px 0px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+
